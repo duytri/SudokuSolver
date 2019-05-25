@@ -9,6 +9,7 @@ import scalafxml.core.FXMLView
 import scalafxml.core.NoDependencyResolver
 import scalafx.scene.image.Image
 import scalafx.scene.layout.StackPane
+import scalafx.stage.StageStyle
 
 object SudokuSolver extends JFXApp {
   // đọc file thiết kế giao diện
@@ -26,5 +27,7 @@ object SudokuSolver extends JFXApp {
     title = "CHUONG TRINH GIAI SUDOKU - Phuong Phuong"
     icons += new Image("main/scala/phuong/sudoku/view/icon.png")
     scene = new Scene(stackPane)
+    resizable = false
+    //initStyle(StageStyle.UNDECORATED)
   }
 }
