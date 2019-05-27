@@ -131,8 +131,13 @@ object SudokuUtils {
   
   def setTextOrElse(tf: TextField, value: Int):Unit={
     if(tf.getText.equals("")){
-      tf.setStyle("-fx-background-color: #fffbc6; -fx-text-fill: green;")
+      tf.setStyle("-fx-background-color: #fffbc6; -fx-text-fill: red;")
       tf.setText(value.toString);
     }
+  }
+  
+  def setNullText(tf: TextField):Unit={
+      tf.setStyle("-fx-background-color: #fffbc6; -fx-text-fill: #00720b;")
+      tf.setText("");
   }
 }

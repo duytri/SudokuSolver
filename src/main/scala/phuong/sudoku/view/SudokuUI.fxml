@@ -12,9 +12,9 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #fffcdd;" xmlns="http://javafx.com/javafx/8.0.212" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.scala.phuong.sudoku.controller.SudokuController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #fffcdd;" xmlns="http://javafx.com/javafx/8.0.191" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.scala.phuong.sudoku.controller.SudokuController">
    <children>
-      <JFXButton fx:id="btnStart" defaultButton="true" layoutX="466.0" layoutY="522.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#startGame" prefHeight="58.0" prefWidth="138.0" ripplerFill="#31dd45" style="-fx-background-color: #c8ffcf;" text="Giải nào! 👨‍🚀" textFill="#00720b">
+      <JFXButton fx:id="btnStart" defaultButton="true" layoutX="466.0" layoutY="522.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#startGame" prefHeight="58.0" prefWidth="138.0" ripplerFill="#31dd45" style="-fx-background-color: #c8ffcf;" text="🤹‍♀️ Giải nào! ‍" textFill="#00720b">
          <font>
             <Font size="14.0" />
          </font>
@@ -22,7 +22,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton fx:id="btnStop" cancelButton="true" layoutX="620.0" layoutY="522.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#endGame" prefHeight="58.0" prefWidth="138.0" ripplerFill="#db3232" style="-fx-background-color: #ffa6a6;" text="Thoát 🙋🏻‍♂️" textFill="#700000">
+      <JFXButton fx:id="btnStop" cancelButton="true" layoutX="620.0" layoutY="522.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#endGame" prefHeight="58.0" prefWidth="138.0" ripplerFill="#db3232" style="-fx-background-color: #ffa6a6;" text="🙋🏼‍♂️ Thoát" textFill="#700000">
          <font>
             <Font size="14.0" />
          </font>
@@ -64,47 +64,47 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <TextField fx:id="tf00" alignment="CENTER" style="-fx-background-color: #fffbc6;">
+                  <TextField fx:id="tf00" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf01" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1">
+                  <TextField fx:id="tf01" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf02" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2">
+                  <TextField fx:id="tf02" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf03" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="1">
+                  <TextField fx:id="tf03" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf04" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="tf04" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf05" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="tf05" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf06" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="2">
+                  <TextField fx:id="tf06" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf07" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="tf07" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf08" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="tf08" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
@@ -123,47 +123,47 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <TextField fx:id="tf10" alignment="CENTER" style="-fx-background-color: #fffbc6;">
+                  <TextField fx:id="tf10" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf11" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1">
+                  <TextField fx:id="tf11" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf12" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2">
+                  <TextField fx:id="tf12" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf13" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="1">
+                  <TextField fx:id="tf13" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf14" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="tf14" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf15" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="tf15" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf16" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="2">
+                  <TextField fx:id="tf16" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf17" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="tf17" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf18" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="tf18" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
@@ -182,47 +182,47 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <TextField fx:id="tf20" alignment="CENTER" style="-fx-background-color: #fffbc6;">
+                  <TextField fx:id="tf20" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf21" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1">
+                  <TextField fx:id="tf21" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf22" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2">
+                  <TextField fx:id="tf22" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf23" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="1">
+                  <TextField fx:id="tf23" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf24" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="tf24" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf25" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="tf25" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf26" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="2">
+                  <TextField fx:id="tf26" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf27" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="tf27" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf28" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="tf28" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
@@ -241,47 +241,47 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <TextField fx:id="tf30" alignment="CENTER" style="-fx-background-color: #fffbc6;">
+                  <TextField fx:id="tf30" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf31" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1">
+                  <TextField fx:id="tf31" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf32" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2">
+                  <TextField fx:id="tf32" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf33" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="1">
+                  <TextField fx:id="tf33" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf34" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="tf34" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf35" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="tf35" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf36" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="2">
+                  <TextField fx:id="tf36" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf37" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="tf37" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf38" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="tf38" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
@@ -300,47 +300,47 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <TextField fx:id="tf40" alignment="CENTER" style="-fx-background-color: #fffbc6;">
+                  <TextField fx:id="tf40" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf41" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1">
+                  <TextField fx:id="tf41" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf42" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2">
+                  <TextField fx:id="tf42" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf43" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="1">
+                  <TextField fx:id="tf43" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf44" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="tf44" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf45" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="tf45" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf46" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="2">
+                  <TextField fx:id="tf46" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf47" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="tf47" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf48" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="tf48" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
@@ -359,47 +359,47 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <TextField fx:id="tf50" alignment="CENTER" style="-fx-background-color: #fffbc6;">
+                  <TextField fx:id="tf50" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf51" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1">
+                  <TextField fx:id="tf51" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf52" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2">
+                  <TextField fx:id="tf52" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf53" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="1">
+                  <TextField fx:id="tf53" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf54" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="tf54" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf55" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="tf55" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf56" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="2">
+                  <TextField fx:id="tf56" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf57" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="tf57" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf58" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="tf58" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
@@ -418,47 +418,47 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <TextField fx:id="tf60" alignment="CENTER" style="-fx-background-color: #fffbc6;">
+                  <TextField fx:id="tf60" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf61" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1">
+                  <TextField fx:id="tf61" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf62" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2">
+                  <TextField fx:id="tf62" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf63" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="1">
+                  <TextField fx:id="tf63" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf64" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="tf64" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf65" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="tf65" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf66" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="2">
+                  <TextField fx:id="tf66" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf67" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="tf67" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf68" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="tf68" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
@@ -477,47 +477,47 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <TextField fx:id="tf70" alignment="CENTER" style="-fx-background-color: #fffbc6;">
+                  <TextField fx:id="tf70" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf71" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1">
+                  <TextField fx:id="tf71" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf72" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2">
+                  <TextField fx:id="tf72" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf73" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="1">
+                  <TextField fx:id="tf73" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf74" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="tf74" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf75" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="tf75" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf76" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="2">
+                  <TextField fx:id="tf76" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf77" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="tf77" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf78" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="tf78" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
@@ -536,47 +536,47 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <TextField fx:id="tf80" alignment="CENTER" style="-fx-background-color: #fffbc6;">
+                  <TextField fx:id="tf80" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf81" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1">
+                  <TextField fx:id="tf81" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf82" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2">
+                  <TextField fx:id="tf82" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf83" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="1">
+                  <TextField fx:id="tf83" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf84" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="tf84" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf85" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="tf85" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf86" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.rowIndex="2">
+                  <TextField fx:id="tf86" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf87" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="tf87" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="tf88" alignment="CENTER" style="-fx-background-color: #fffbc6;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="tf88" alignment="CENTER" style="-fx-background-color: #fffbc6; -fx-text-fill: #00720b;" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Bold" size="20.0" />
                      </font>
@@ -590,10 +590,18 @@
             <Font name="Segoe UI Bold" size="14.0" />
          </font>
       </Label>
-      <ImageView fitHeight="239.0" fitWidth="275.0" layoutX="14.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgSally" fitHeight="239.0" fitWidth="275.0" layoutX="18.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@sally.png" />
          </image>
       </ImageView>
+      <JFXButton fx:id="btnDelete" defaultButton="true" layoutX="40.0" layoutY="522.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#deleteGame" prefHeight="58.0" prefWidth="138.0" ripplerFill="#006bff" style="-fx-background-color: #41a5fc;" text="💥 Xóa‍" textFill="#001570">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
    </children>
 </Pane>

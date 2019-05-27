@@ -24,7 +24,7 @@ object SudokuSolver extends JFXApp {
   stackPane.getChildren.add(root)
 
   stage = new PrimaryStage {
-    title = "CHUONG TRINH GIAI SUDOKU - Phuong Phuong"
+    title = "CHƯƠNG TRÌNH GIẢI SUDOKU - PHƯƠNG PHƯƠNG"
     icons += new Image("main/scala/phuong/sudoku/view/icon.png")
     scene = new Scene(stackPane)
     resizable = false
